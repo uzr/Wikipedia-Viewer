@@ -1,0 +1,19 @@
+body{
+  background:#e2e2e2;
+}
+.btn-primary{
+  background-color:#b3b3b3;
+  color:black; 
+}
+.result-box{
+  padding-left: 75px;
+  padding-right: 120px;
+}
+.result{
+  padding: 25px;
+  padding-left: 25px;
+  border-radius:5px;
+ }
+.hidden{
+  display:none;
+}

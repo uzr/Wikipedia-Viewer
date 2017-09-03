@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <br>
+  <h1 class="text-center"> Wikipedia Viewer </h1>
+  <br>
+  
+  <div class="text-center">
+    <button class="btn btn-primary" id="search-btn"><b>Search Wikipedia</b>   
+    </button>
+  </div>
+  <div class="hidden input-group" id="searchForm">
+      <input type="text" class="form-control" placeholder="Search Wikipedia" id="search">
+      <div class="input-group-btn">
+        <input type="submit" class="btn btn-info" id="submit">
+      </div>
+  </div>
+  <br>
+
+  <div class="text-center">
+    <button class="btn btn-primary" data-toggle="tooltip" title="Opens in new window" id="random">
+      <b>Random Wikipedia Search</b>
+    </button>
+  </div>
+  <br>
+    
+  <div class="result-box">  
+    <h4 id="resultTitle"></h4> <br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="0"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="1"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="2"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="3"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="4"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="5"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="6"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="7"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="8"></div><br>
+    <div class="hidden result btn-primary" data-toggle="tooltip" title="Opens in new window" id="9"></div><br>
+  </div>
+    
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
